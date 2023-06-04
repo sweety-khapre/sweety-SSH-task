@@ -1,0 +1,19 @@
+create instance > create key pair > putty.ppk 
+
+download : putty
+RSA and DSA
+download: puttygen.exe
+
+instance>.ppk_key generate
+puttygen> load> select putty.ppk file > rename as: convertedkey.ppk
+
+putty> go to instance> connect> SSH Client > ec2-43-205-139-231.ap-south-1.compute.amazonaws.com(  copy public dns from ssh client)
+putty> hostname /ip < ssh<auth< credentials < browse 1st (key paste) accept 
+
+putty> login as ec2-user> aws configure
+access key:
+secret key
+region:
+output:
+aws s3 ls
+ Output:  sweety-batch15-bucket
