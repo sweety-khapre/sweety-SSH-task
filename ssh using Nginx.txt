@@ -1,0 +1,20 @@
+1>create instance > connect > chient SSH > copy example path
+2>go to git: type: ssh -i (paste path of example)
+3>continue: yes
+4>sudo yum update
+5>sudo yum install nginx -y
+6>sudo serive nginx status
+7>sudo service nginx start
+8>sudo service nginx status
+Active
+9>curlo localhost
+   {
+      Welcome to nginx
+   }
+
+  or
+10> gp to instance>public ip copy >open new browser >hit public ip
+
+   {
+     Welcome to nginx
+   }
