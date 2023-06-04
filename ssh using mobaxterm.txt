@@ -1,0 +1,12 @@
+1>create instance and save its .pem file
+2>copy public ip when instance is runninng
+3>open Mobaxterm
+4>session > select SSH > remote user : paste public ip of instance
+5>advanced setting > select private key > give path of .pem file
+6>ok
+7>accept
+8>login as ec2-user
+9>succesfull login (you got access
+10>aws configure
+11>aws s3 ls
+12>output will be sweety-bucket
