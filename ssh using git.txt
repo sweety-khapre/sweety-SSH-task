@@ -1,0 +1,12 @@
+1>download gitbash application
+2>install app > keep .pem file ready of an instance
+3> type: ssh -i (pem file.pem) ec2-user@public ip of instance
+4>conitinue: yes
+5>aws configure
+6>access id:
+7>secrete is:
+8>region: enter
+9>output: enter
+
+10>aws s3 ls
+11>all sweety-bucket now visible
