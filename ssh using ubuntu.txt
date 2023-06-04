@@ -1,0 +1,10 @@
+1> create instance > generate .pem file
+2> copy public ip
+3>goto .pem file location using : cd/mnt/c/Users/HP/Download/aws
+4>password for sweety : 
+5>give chmod 600 permission to private .pem file as sudo
+6>go to instance > connect > SSH client >copy  all path of Example
+7>open ubuntu terminal
+8>type: ssh -i (path of example)
+9>continue:yes
+10> got the access
