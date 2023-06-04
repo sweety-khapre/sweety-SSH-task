@@ -1,0 +1,7 @@
+1>create an Instance
+2>save its .pem file using create key pairs
+3>When instance is running copy its public IP
+4>Open Powershell
+5>put the .pem file in the location flashed on screen
+6>type : ssh -i (pem file name .pem) ec2-user@public ip of instance
+7> enter
